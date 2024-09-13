@@ -1,13 +1,12 @@
 
-/* .navbar-custom {
-    padding-left: 60px;
-    padding-right: 60px;
-} */
-
 .img-fluid {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+figcaption {
+    display: none;
 }
 
 @media (max-width: 576px) {
