@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <title>Instagram Feed con Bootstrap</title>
 </head>
 <body>
     <div class="container-fluid p-0">
-        
-        <!-- Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
-            <div class="col-sm-12 col-xl-10 container-fluid navbar-custom d-flex justify-content-between">
-                <a class="navbar-brand" href="#">
-                    <span class="fa-brands fa-instagram"></span>
-                    Instagram
-                </a>
-                <div class="d-flex align-items-center">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand me-1" href="#">
+                <span class="fa-brands fa-instagram"></span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <h5 class="m-0">Instagram</h5>
+                    </a>
+                  </li>
+                </ul>
+                <div class="d-flex" role="search">
                     <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" aria-label="Create a new post">
                         Create a new post
                     </button>
@@ -36,39 +44,11 @@
                         </ul>
                     </div>
                 </div>
+              </div>
             </div>
         </nav>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p class="mb-1">Caption:</p>
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
-                            <label for="floatingTextarea2" class="text-black-50">Add the caption of your post here</label>
-                        </div>
-                        <button type="button" class="border btn btn-light btn-outline-secondary mt-2 mb-2 me-1 p-1" style="width: 40px;">
-                            <span class="fa-solid fa-camera text-dark"></span>
-                        </button>
-                        <button type="button" class="border btn btn-light btn-outline-secondary mt-2 mb-2 p-1" style="width: 40px;">
-                            <span class="fa-solid fa-location-dot text-dark"></span>
-                        </button>
-                    </div>
-                    <div class="modal-footer p-2">
-                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal" aria-label="Close">Close</button>
-                        <button type="button" class="btn btn-success btn-sm" data-bs-dismiss="toast">Publish</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Navbar -->
+        <!-- Navs -->
         <div class="d-flex justify-content-center align-items-center mt-2">
             <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation"> 
@@ -89,7 +69,7 @@
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div class="container-fluid h-100">
                     <div class="row d-flex flex-column align-items-center">
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 d-flex px-1">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10 d-flex px-1">
                             <figure class="col-4 p-1 m-0">
                                 <div class="ratio ratio-1x1">
                                     <img src="https://mannersformutts.com/wp-content/uploads/2017/08/Fotolia_115368131_Subscription_Monthly_M-837x675.jpg" class="img-fluid rounded-0" alt="...">
@@ -109,7 +89,7 @@
                                 <figcaption hidden >Gol impresionante de Lionel Messi, mostrando su habilidad y magia en el campo con un disparo espectacular que deslumbró a los fanáticos.</figcaption>
                             </figure>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 d-flex px-1">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10 d-flex px-1">
                             <figure class="col-4 p-1 m-0">
                                 <div class="ratio ratio-1x1">
                                     <img src="https://lp-cms-production.imgix.net/2021-05/shutterstockRF_1321418885.jpg?fit=crop&ar=1%3A1&w=1200&auto=format&q=75" class="img-fluid rounded-0" alt="...">
@@ -129,7 +109,7 @@
                                 <figcaption hidden >Panorámica de Río de Janeiro con el Cristo Redentor sobre el Corcovado, y sus famosas playas de Copacabana e Ipanema al fondo.</figcaption>
                             </figure>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 d-flex px-1">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-10 d-flex px-1">
                             <figure class="col-4 p-1 m-0">
                                 <div class="ratio ratio-1x1">
                                     <img src="https://www.posturite.co.uk/media/wysiwyg/young-people_office-workers.jpg" class="img-fluid rounded-0" alt="...">
@@ -156,7 +136,7 @@
             <!-- Cards -->
             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">          
                 <div class="d-flex flex-column align-items-center p-sm-3 p-md-0">
-                    <figure class="card mt-2 mb-3 col-sm-12 col-md-8 col-lg-6 col-xl-4">
+                    <figure class="card mt-2 mb-3 col-sm-12 col-md-8 col-lg-6 col-xl-4 col-xxl-4">
                         <div class="d-flex justify-content-between p-2 align-items-center">
                             <h5 class="m-0">My Crazy dog Spark!</h5>
                             <p>08/26</p>
@@ -167,7 +147,7 @@
                             <p class="card-text">This is an example of a very good photo that you can post on instagram</p>
                         </figcaption>
                     </figure>
-                    <figure class="card mt-2 mb-3 col-sm-12 col-md-8 col-lg-6 col-xl-4">
+                    <figure class="card mt-2 mb-3 col-sm-12 col-md-8 col-lg-6 col-xl-4 col-xxl-4">
                         <div class="d-flex justify-content-between p-2 align-items-center">
                             <h5 class="m-0">The greatness of Croatia</h5>
                             <p>04/09</p>
@@ -178,7 +158,7 @@
                             <p class="card-text">This is an example of a very good photo that you can post on instagram</p>
                         </figcaption>
                     </figure>
-                    <figure class="card mt-2 mb-3 col-sm-12 col-md-8 col-lg-6 col-xl-4">
+                    <figure class="card mt-2 mb-3 col-sm-12 col-md-8 col-lg-6 col-xl-4 col-xxl-4">
                         <div class="d-flex justify-content-between p-2 align-items-center">
                             <h5 class="m-0">Amazin GOAL by Messi!</h5>
                             <p>06/10</p>
@@ -189,6 +169,35 @@
                             <p class="card-text">This is an example of a very good photo that you can post on instagram</p>
                         </figcaption>
                     </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-1">Caption:</p>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 60px"></textarea>
+                        <label for="floatingTextarea2" class="text-black-50">Add the caption of your post here</label>
+                    </div>
+                    <button type="button" class="border btn btn-light btn-outline-secondary mt-2 mb-2 me-1 p-1" style="width: 40px;">
+                        <span class="fa-solid fa-camera text-dark"></span>
+                    </button>
+                    <button type="button" class="border btn btn-light btn-outline-secondary mt-2 mb-2 p-1" style="width: 40px;">
+                        <span class="fa-solid fa-location-dot text-dark"></span>
+                    </button>
+                </div>
+                <div class="modal-footer p-2">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                    <button type="button" class="btn btn-success btn-sm" data-bs-dismiss="toast">Publish</button>
                 </div>
             </div>
         </div>
