@@ -4,12 +4,19 @@ El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza
 
 > Tienes un video tutorial sobre [cómo usar esta plantilla para crear tu primer sitio web aquí](https://youtu.be/dfbDCMu_p-0).
 
+## Ver el proyecto en vivo
+
+Puedes ver el maquetado final de este proyecto en el siguiente enlace:
+
+[Ver en GitHub Pages](https://neptali-ricardo.github.io/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap/)
+
 ## ¿Qué hacer a continuación?
 
 Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
 
 ```bash
 $ pip3 install flask && python3 server.py
+
 ```
 
 - Puedes crear tantos archivos HTML cómo desees.
