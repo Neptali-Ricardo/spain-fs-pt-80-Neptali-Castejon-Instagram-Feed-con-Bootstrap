@@ -1,40 +1,24 @@
-# HTML Hello
+# Instagram Feed con Bootstrap
 
-El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza tu primer sitio web desde cero.
+Este proyecto es un maquetado que simula un feed de Instagram, diseñado con HTML y CSS. Demuestra cómo estructurar y estilizar publicaciones en una interfaz similar a Instagram.
 
-> Tienes un video tutorial sobre [cómo usar esta plantilla para crear tu primer sitio web aquí](https://youtu.be/dfbDCMu_p-0).
+## Descripción
 
-## Ver el proyecto en vivo
+El maquetado presenta varias publicaciones que incluyen imágenes, títulos e interacciones como "Me gusta" y comentarios. Este proyecto es ideal para practicar técnicas de maquetación y comprender el uso moderno de CSS, incluyendo variables CSS para mantener un diseño limpio y fácilmente modificable.
+
+## Tecnologías Utilizadas
+
+- HTML5
+- CSS3
+- Font Awesome para iconos
+- Bootstrap para el estilo
+
+## Instrucciones de Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/neptali-ricardo/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap.git
 
 Puedes ver el maquetado final de este proyecto en el siguiente enlace:
 
-[Ver en GitHub Pages](https://neptali-ricardo.github.io/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap/)
-
-## ¿Qué hacer a continuación?
-
-Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
-
-```bash
-$ pip3 install flask && python3 server.py
-
-```
-
-- Puedes crear tantos archivos HTML cómo desees.
-- También puedes crear archivos CSS e importarlos en tu página web utilizando una etiqueta `<link>` ubicándola entre las etiquetas `<head></head>`, de la siguiente manera:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
-
-
-## Agradecimientos
-
-Esta y otras plantillas son utilizadas para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp). 
-
-Realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. 
-
-Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero/?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/desarrollador-full-stack/desarrollador-full-stack), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+https://neptali-ricardo.github.io/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap/
