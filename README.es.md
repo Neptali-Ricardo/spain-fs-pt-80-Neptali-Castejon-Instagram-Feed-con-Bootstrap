@@ -19,6 +19,6 @@ El maquetado presenta varias publicaciones que incluyen imágenes, títulos e in
    ```bash
    git clone https://github.com/neptali-ricardo/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap.git
 
-Puedes ver el maquetado final de este proyecto en el siguiente enlace:
+## Puedes ver el maquetado final de este proyecto en el siguiente enlace:
 
 https://neptali-ricardo.github.io/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap/
