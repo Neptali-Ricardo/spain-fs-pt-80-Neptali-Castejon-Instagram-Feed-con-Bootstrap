@@ -19,6 +19,6 @@ The layout presents several posts that include images, titles, and interactions 
    ```bash
    git clone https://github.com/neptali-ricardo/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap.git
 
-You can view the final layout of this project at the following link:
+## You can view the final layout of this project at the following link:
 
 https://neptali-ricardo.github.io/spain-fs-pt-80-Neptali-Castejon-Instagram-Feed-con-Bootstrap/
